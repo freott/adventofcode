@@ -1,6 +1,7 @@
 import utils from './utils'
 import one from './days/1'
 import two from './days/2'
+import three from './days/3'
 
 const { logColors: { FgRed, FgCyan } } = utils
 
@@ -11,7 +12,8 @@ const PUZZLES = [
 
 const DAYS = {
   1: one,
-  2: two
+  2: two,
+  3: three,
 }
 
 const [,, day, puzzle] = process.argv
