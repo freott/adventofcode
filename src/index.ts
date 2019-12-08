@@ -41,7 +41,7 @@ async function run() {
   }
   
   console.time('run')
-  console.log(FgCyan, `Result: ${DAYS[day][puzzle]()}`)
+  console.log(FgCyan, `Result: ${JSON.stringify(DAYS[day][puzzle](), null, 2)}`)
   console.timeEnd('run')
 }
 

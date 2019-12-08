@@ -104,7 +104,6 @@ function getAllCombinations(minValue, maxValue) {
   }
 
   const allCombinations = iterate(sequenze)
-  console.log('jj', JSON.stringify(allCombinations))
   return allCombinations
 }
 
