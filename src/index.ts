@@ -40,7 +40,9 @@ async function run() {
     process.exit(0)
   }
   
+  console.time('run')
   console.log(FgCyan, `Result: ${DAYS[day][puzzle]()}`)
+  console.timeEnd('run')
 }
 
 run()
